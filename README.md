@@ -7,7 +7,8 @@ docker build -t <tag_name> .
 docker run -d -p 80:80 <tag_name>
 
 POST localhost/upload.php
-    user=<username>
-    password=<password>
-    video=<video url>
-    caption=<text>
+    
+    user='username'
+    password='password'
+    video='http://host/video.mp4'
+    caption='text'
